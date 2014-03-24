@@ -1,0 +1,437 @@
+	html, body
+	{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	}
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #333333;
+		font-family:'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;
+	}
+
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		-webkit-font-smoothing: antialiased;
+	}
+	
+	p
+	{
+		line-height: 220%;
+	}
+	
+	#logo h1
+	{
+		text-align: center;
+		text-shadow: 2px 6px 4px rgba(0,0,0,0.3);
+	}
+	
+	#logo span
+	{
+		text-align: center;
+		text-shadow: 8px 2px 10px rgba(0,0,0,0.3);
+	}
+	
+	#logo a
+	{
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	a:link
+	{
+		text-decoration: none;
+	}
+	
+	#menu
+	{
+		text-align: center;
+		margin: auto;
+	}
+	
+	#menu ul
+	{
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+		margin-left: 0.50em;
+		padding: 1em 1.5em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #FFF;
+		text-align: left;
+		width: 100%;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #6FC06A;
+		border-radius: 8px;
+		color: #FFF;
+	}
+	
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 1em 2em 1em 2em;
+		background: #8DCB89;
+		border-radius: 8px;
+		letter-spacing: 0.20em;
+		line-height: 1.8em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #8DCB89;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+	
+	.button-small
+	{
+		padding: 0.9em 2em;
+		background: #8DCB89;
+		border-radius: 5px;
+		line-height: 1.8em;
+		font-size: 1em;
+	}
+		
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	.container
+	{
+		margin: auto;
+		width: 100%;
+	}
+	
+	#header-wrapper
+	{
+		overflow: hidden;
+		text-align: center;
+		background: #8DCB89;
+	}
+	
+	#logo
+	{
+		text-align: center;
+		font-size: 2em;
+		max-width: 100%;
+		margin: auto;
+	}
+	
+	.content
+	{
+		font-size: 1.2em;
+		text-transform: uppercase;
+		padding: 2em;
+	}
+	
+	#biop
+	{
+		color: #FFFFFF;
+		padding: 2em;
+	}
+	
+	#biopng
+	{
+		float: right;
+	}
+	
+	#napng
+	{
+		float: left;
+	}
+	
+	#ecopng
+	{
+		float: left;
+		
+	}
+	
+	#skpng
+	{
+		float: right;
+	}
+	
+	#mopng
+	{
+		float: right;
+	}
+	
+	#nepng
+	{
+		float: left;
+	}
+	
+	#mupng
+	{
+		float: left;
+	}
+	
+	#maatp
+	{
+		text-align: center;
+	}
+	
+	.title
+	{
+		padding-top: 3em;
+		margin-bottom: 3em;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	.title h2
+	{
+		font-size: 2.8em;
+		color: #FFFFFF;
+		text-align: center;
+		text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #FFFFFF;
+		text-align: center;
+	}
+
+	#wrapper1
+	{
+		background: #73AFB6;
+		padding-top: 2em;
+		-moz-box-shadow: 0 0 2em #73AFB6;
+		-webkit-box-shadow: 0 0 2em #73AFB6;
+		box-shadow: 0 0 2em #73AFB6;
+	}
+
+	#wrapper2
+	{
+		background: #806C99;
+		-moz-box-shadow: 0 0 2em #806C99;
+		-webkit-box-shadow: 0 0 2em #806C99;
+		box-shadow: 0 0 2em #806C99;
+	}
+	
+	#mapng
+	{
+		float: right;
+		padding-bottom: 1em;
+	}
+	
+	#wrapper3
+	{
+		background: #D1CA8E;
+		-moz-box-shadow: 0 0 2em #D1CA8E;
+		-webkit-box-shadow: 0 0 2em #D1CA8E;
+		box-shadow: 0 0 2em #D1CA8E;
+		text-align: right;
+	}
+
+	#wrapper4
+	{
+		background: #83D392;
+		text-align: center;
+		-moz-box-shadow: 0 0 2em #83D392;
+		-webkit-box-shadow: 0 0 2em #83D392;
+		box-shadow: 0 0 2em #83D392;
+	}
+	
+	#wrapper5
+	{
+		background: #806C99;
+		-moz-box-shadow: 0 0 2em #806C99;
+		-webkit-box-shadow: 0 0 2em #806C99;
+		box-shadow: 0 0 2em #806C99;
+	}
+	
+	#wrapper6
+	{
+		background: #73AFB6;
+		text-align: center;
+		-moz-box-shadow: 0 0 2em #73AFB6;
+		-webkit-box-shadow: 0 0 2em #73AFB6;
+		box-shadow: 0 0 2em #73AFB6;
+	}
+	
+	#wrapper7
+	{
+		background: #D1CA8E;
+		text-align: right;
+		-moz-box-shadow: 0 0 2em #D1CA8E;
+		-webkit-box-shadow: 0 0 2em #D1CA8E;
+		box-shadow: 0 0 2em #D1CA8E;
+	}
+	
+	#wrapper8
+	{
+		background: #83D392;
+		text-align: center;
+		-moz-box-shadow: 0 0 2em #83D392;
+		-webkit-box-shadow: 0 0 2em #83D392;
+		box-shadow: 0 0 2em #83D392;
+	}
+	
+	#wrapper9
+	{
+		background: #333333;
+		color: #FFFFFF;
+		-moz-box-shadow: 0 0 2em #333333;
+		-webkit-box-shadow: 0 0 2em #333333;
+		box-shadow: 0 0 2em #333333;
+	}
+	
+	#wrapper10
+	{
+		background: #806C99;
+		-moz-box-shadow: 0 0 2em #806C99;
+		-webkit-box-shadow: 0 0 2em #806C99;
+		box-shadow: 0 0 2em #806C99;
+	}
+
+	#wrapper11
+	{
+		background: #73AFB6;
+		-moz-box-shadow: 0 0 2em #73AFB6;
+		-webkit-box-shadow: 0 0 2em #73AFB6;
+		box-shadow: 0 0 2em #73AFB6;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	#wrapper12
+	{
+		background: #D1CA8E;
+		-moz-box-shadow: 0 0 2em #D1CA8E;
+		-webkit-box-shadow: 0 0 2em #D1CA8E;
+		box-shadow: 0 0 2em #D1CA8E;
+		text-align: right;
+		color: #FFFFFF;
+	}
+
+	#wrapper13
+	{
+		background: #83D392;
+		text-align: center;
+		-moz-box-shadow: 0 0 2em #83D392;
+		-webkit-box-shadow: 0 0 2em #83D392;
+		box-shadow: 0 0 2em #83D392;
+	}
+	
+	#wrapper14
+	{
+		background: #806C99;
+		-moz-box-shadow: 0 0 2em #806C99;
+		-webkit-box-shadow: 0 0 2em #806C99;
+		box-shadow: 0 0 2em #806C99;
+	}
+
+	#wrapper15
+	{
+		background: #73AFB6;
+		-moz-box-shadow: 0 0 2em #73AFB6;
+		-webkit-box-shadow: 0 0 2em #73AFB6;
+		box-shadow: 0 0 2em #73AFB6;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	#footer a, a:visited
+	{
+		color: #000000;
+	}
+
+	.contact
+	{
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	.icon
+	{
+		color: #4099FF;
+	}
+	
+	.contact a:visited
+	{
+		color: #FFFFFF;
+	}
+	
+	.content p
+	{
+		color: #FFFFFF;
+	}
+	
+	.content p a
+	{
+		color: #FFFFFF;
+	}
+
+	#akpng
+	{
+		float: right;
+	}
+	
+	#fapng
+	{
+		vertical-align: top;
+		float: right;
+	}
