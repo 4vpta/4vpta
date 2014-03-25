@@ -18,35 +18,7 @@
 </script>
  </head>
 <body>
- <script>
-	$(document).ready(	function() {
-		$('#biof1').hide()
-		$('#biof2').hide()
-		$('#biof3').hide()
-		$('#bio1').click( function() {
-			$('#biof2').slideUp(); 
-			$('#biof3').slideUp();
-			setTimeout(function(){
-			$('#biof1').slideToggle();
-			}, 500);
-			} ); 
-		$('#bio2').click( function() {
-			$('#biof1').slideUp(); 
-			$('#biof3').slideUp();
-			setTimeout(function(){
-			$('#biof2').slideToggle();
-			}, 500);
-			} ); 
-		$('#bio3').click( function() {
-			$('#biof1').slideUp(); 
-			$('#biof2').slideUp();
-			setTimeout(function(){
-			$('#biof3').slideToggle();
-			}, 500);
-			} ); 
-		}
-	);
-</script>
+<script src="animation.js"></script>
 <div id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
