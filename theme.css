@@ -85,9 +85,13 @@
 		outline: 0;
 		color: #FFF;
 		text-align: left;
-		width: 100%;
 	}
 	
+	#cats
+	{
+		font-size: 1.5em;
+		color: #fff;
+	}
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
 	}
@@ -164,6 +168,8 @@
 		overflow: hidden;
 		text-align: center;
 		background: #8DCB89;
+		width: 100%;
+		top: 0;
 	}
 	
 	#logo
