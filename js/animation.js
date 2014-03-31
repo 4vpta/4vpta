@@ -5,9 +5,10 @@
 			$('#menu').slideToggle();
 			if(pulled) { 
 				$('#cats').html('Verberg alle categorieen'); 
-				pulled = false } 
+				pulled = false; } 
 			else {
-				$('#cats').html('Toon alle categorieen'); }	
+				$('#cats').html('Toon alle categorieen'); 
+				pulled = true; }	
 		});
 		$('#biof1').hide()
 		$('#biof2').hide()
