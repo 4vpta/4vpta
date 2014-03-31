@@ -1,12 +1,13 @@
 	$(document).ready(	function() {
+		var pulled = false
 		$('#menu').hide()
 		$('#cats').click(function(){
 			$('#menu').slideToggle();
-			$('#cats').toggle(function(){
-			$('#cats').html("Verberg alle categorie&euml;n");
-			}, function(){
-			$('#cats').html("Toon alle categorie&euml;n");
-			});
+			if(pulled) { 
+				$('#cats').html('Verberg alle categorieen'); 
+				pulled = false } 
+			else {
+				$('#cats').html('Toon alle categorieen'); }	
 		});
 		$('#biof1').hide()
 		$('#biof2').hide()
