@@ -4,10 +4,10 @@
 		$('#cats').click(function(){
 			$('#menu').slideToggle();
 			if(pulled) { 
-				$('#cats').html('Verberg alle categorieen'); 
+				$('#cats').html('Toon alle categorie&euml;n'); 
 				pulled = false; } 
 			else {
-				$('#cats').html('Toon alle categorieen'); 
+				$('#cats').html('Verberg alle categorie&euml;n'); 
 				pulled = true; }	
 		});
 		$('#biof1').hide()
