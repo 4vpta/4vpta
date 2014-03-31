@@ -2,6 +2,11 @@
 		$('#menu').hide()
 		$('#cats').click(function(){
 			$('#menu').slideToggle();
+			$('#cats').toggle(function(){
+			$('#cats').html("Verberg alle categorie&euml;n");
+			}, function(){
+			$('#cats').html("Toon alle categorie&euml;n");
+			});
 		});
 		$('#biof1').hide()
 		$('#biof2').hide()
