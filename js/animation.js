@@ -1,4 +1,15 @@
 	$(document).ready(	function() {
+		var pulled = false
+		$('#menu').hide()
+		$('#cats').click(function(){
+			$('#menu').slideToggle();
+			if(pulled) { 
+				$('#cats').html('Toon alle categorie&euml;n'); 
+				pulled = false; } 
+			else {
+				$('#cats').html('Verberg alle categorie&euml;n'); 
+				pulled = true; }	
+		});
 		$('#biof1').hide()
 		$('#biof2').hide()
 		$('#biof3').hide()
