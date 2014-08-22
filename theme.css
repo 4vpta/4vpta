@@ -260,7 +260,7 @@
 		text-align: center;
 	}
 
-	#wrapper1
+	#wrapper01
 	{
 		background: #73AFB6;
 		padding-top: 2em;
@@ -269,7 +269,7 @@
 		box-shadow: 0 0 2em #73AFB6;
 	}
 
-	#wrapper2
+	#wrapper02
 	{
 		background: #806C99;
 		-moz-box-shadow: 0 0 2em #806C99;
@@ -283,7 +283,7 @@
 		padding-bottom: 1em;
 	}
 	
-	#wrapper3
+	#wrapper03
 	{
 		background: #D1CA8E;
 		-moz-box-shadow: 0 0 2em #D1CA8E;
@@ -292,7 +292,7 @@
 		text-align: right;
 	}
 
-	#wrapper4
+	#wrapper04
 	{
 		background: #83D392;
 		text-align: center;
@@ -301,7 +301,7 @@
 		box-shadow: 0 0 2em #83D392;
 	}
 	
-	#wrapper5
+	#wrapper05
 	{
 		background: #806C99;
 		-moz-box-shadow: 0 0 2em #806C99;
@@ -309,7 +309,7 @@
 		box-shadow: 0 0 2em #806C99;
 	}
 	
-	#wrapper6
+	#wrapper06
 	{
 		background: #73AFB6;
 		text-align: center;
@@ -318,7 +318,7 @@
 		box-shadow: 0 0 2em #73AFB6;
 	}
 	
-	#wrapper7
+	#wrapper07
 	{
 		background: #D1CA8E;
 		text-align: right;
@@ -327,7 +327,7 @@
 		box-shadow: 0 0 2em #D1CA8E;
 	}
 	
-	#wrapper8
+	#wrapper08
 	{
 		background: #83D392;
 		text-align: center;
@@ -336,7 +336,7 @@
 		box-shadow: 0 0 2em #83D392;
 	}
 	
-	#wrapper9
+	#footer
 	{
 		background: #333333;
 		color: #FFFFFF;
@@ -345,7 +345,7 @@
 		box-shadow: 0 0 2em #333333;
 	}
 	
-	#wrapper10
+	#wrapper09
 	{
 		background: #806C99;
 		-moz-box-shadow: 0 0 2em #806C99;
@@ -353,7 +353,7 @@
 		box-shadow: 0 0 2em #806C99;
 	}
 
-	#wrapper11
+	#wrapper10
 	{
 		background: #73AFB6;
 		-moz-box-shadow: 0 0 2em #73AFB6;
@@ -363,7 +363,7 @@
 		color: #FFFFFF;
 	}
 	
-	#wrapper12
+	#wrapper11
 	{
 		background: #D1CA8E;
 		-moz-box-shadow: 0 0 2em #D1CA8E;
@@ -373,7 +373,7 @@
 		color: #FFFFFF;
 	}
 
-	#wrapper13
+	#wrapper12
 	{
 		background: #83D392;
 		text-align: center;
@@ -382,7 +382,7 @@
 		box-shadow: 0 0 2em #83D392;
 	}
 	
-	#wrapper14
+	#wrapper13
 	{
 		background: #806C99;
 		-moz-box-shadow: 0 0 2em #806C99;
@@ -390,7 +390,7 @@
 		box-shadow: 0 0 2em #806C99;
 	}
 
-	#wrapper15
+	#wrapper14
 	{
 		background: #73AFB6;
 		-moz-box-shadow: 0 0 2em #73AFB6;
